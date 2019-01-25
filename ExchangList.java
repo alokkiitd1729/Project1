@@ -3,6 +3,9 @@
  * Date 16 October 2018
  *    Author@_Alok_Kumar
  *    Indian Institute of Technology(IIT) Delhi
+ *
+ *    To Understand the project in enough detail please go to ReadMe file of Project1
+ *     and Visit under the section under the name of this class.
  */
 
 public class ExchangeList {
