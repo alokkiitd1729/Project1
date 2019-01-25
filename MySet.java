@@ -1,3 +1,8 @@
+/**
+ * Date 16 October 2018
+ *    Author@_Alok_Kumar
+ *    Indian Institute of Technology(IIT) Delhi
+ */
 public class Myset  {  // 1st class Myset.....	
 	public class Node {
 		public Object data;
