@@ -1,5 +1,5 @@
 # Project1
-Mobile Phone Tracking System
+### "Mobile Phone Tracking System"
 
 we are going to design a data structure that will help
 us solve a simplified version of the mobile phone tracking problem, i.e., the
