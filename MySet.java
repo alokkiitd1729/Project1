@@ -11,13 +11,13 @@ public class Myset  {  // 1st class Myset.....
 	 Node head;
 	 Node headi = head;
 	  Myset c;
-	 public boolean IsEmpty() {            // 1st method :- check whether set(linked list) is empty or not
+	 public boolean IsEmpty() {            //  :- check whether set(linked list) is empty or not
 		 if(head == null) {
 			 return true;
 		 }
 		 return false ;
 	 }
-	 public  boolean IsMember(Object o) {     // 2nd method :- checks whether object o is in the set(LL) or not.
+	 public  boolean IsMember(Object o) {     //  :- checks whether object o is in the set(LL) or not.
 		 Node travel = head;
 	while(travel != null) {
 			if(travel.data == o) {
@@ -29,7 +29,7 @@ public class Myset  {  // 1st class Myset.....
 			System.out.println("false");
 		return false;
 		}
-	 public void Insert(Object o) {  // 3rd method :- insert a data of object type :)
+	 public void Insert(Object o) {  //  :- insert a data of object type :)
 		if(IsMember(o) == false) {
 			 Node node = new Node();
 			 node.data = o;
@@ -43,7 +43,7 @@ public class Myset  {  // 1st class Myset.....
 			 }
 		}
 	 } 	 
-	 public void Delete(Object o) {                  // 4th method :- for deleting an object from set(LL)
+	 public void Delete(Object o) {                  //  :- for deleting an object from set(LL)
 		try {
 			 if(IsMember(o) == true) {
 				 Node travel = head;
