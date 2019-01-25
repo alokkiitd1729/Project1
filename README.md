@@ -97,14 +97,14 @@ it to any class that you want (Integer, Float, Double, etc).
 
 ## MobilePhone.java
  a java class called MobilePhone, with the following methods:
-{ MobilePhone(Int number): constructor to create a mobile
+- MobilePhone(Int number): constructor to create a mobile
 phone. Unique identifier for a mobile phone is an integer.
-{ public Int number(): returns the id of the mobile phone.
-{ public Boolean status(): returns the status of the phone, i.e.
+- public Int number(): returns the id of the mobile phone.
+- public Boolean status(): returns the status of the phone, i.e.
 switched on or switched o.
-{ public void switchOn(): Changes the status to switched on.
-{ public void switchOff(): Changes the status to switched o.
-{ public Exchange location(): returns the base station with which
+- public void switchOn(): Changes the status to switched on.
+- public void switchOff(): Changes the status to switched o.
+- public Exchange location(): returns the base station with which
 the phone is registered if the phone is switched on and an excep-
 tion if the phone is o. The class Exchange will be described
 next.
@@ -116,15 +116,15 @@ Myset.
 changes.
  Write a java class Exchange that will form the nodes of the routing
 map structure. The class should have the following methods.
-{ Exchange(Int number): constructor to create an exchange.
+- Exchange(Int number): constructor to create an exchange.
 Unique identifier for an exchange is an integer.
-{ All usual Node methods for a general tree like public Exchange
+- All usual Node methods for a general tree like public Exchange
 parent(), public Exchange numChildren() (for number of chil-
 dren), public Exchange child(int i) (returns the ith child),
 public Boolean isRoot(), public RoutingMapTree subtree(int
 i) (returns the ith subtree) and any other tree methods you need.
 The class denition RoutingMapTree will be dened later.
-{ public MobilePhoneSet residentSet(): This returns the resi-
+- public MobilePhoneSet residentSet(): This returns the resi-
 dent set of mobile phones of the exchange.
 
 
@@ -132,21 +132,21 @@ dent set of mobile phones of the exchange.
 
  Write a java class RoutingMapTree which is a tree class whose nodes
 are from the Exchange class. The class should contain the following:
-{ RoutingMapTree(): constructor method. This should create a
+- RoutingMapTree(): constructor method. This should create a
 RoutingMapTree with one Exchange node, the root node which
 has an identier of 0. Create other constructors that you deem
 necessary.
-{ All general tree methods like public Boolean containsNode(Exchange
+- All general tree methods like public Boolean containsNode(Exchange
 a) but with Exchange as the node class.
-{ public void switchOn(MobilePhone a, Exchange b): This method
+- public void switchOn(MobilePhone a, Exchange b): This method
 only works on mobile phones that are currently switched o. It
 switches the phone a on and registers it with base station b. The
 entire routing map tree will be updated accordingly.
-{ public void switchOff(MobilePhone a): This method only works
+- public void switchOff(MobilePhone a): This method only works
 on mobile phones that are currently switched on. It switches the
 phone a o. The entire routing map tree has to be updated ac-
 cordingly.
-{ public String performAction(String actionMessage): This
+- public String performAction(String actionMessage): This
 the main stub method that you have to implement. It takes an
 action as a string. The list of actions, and their format will be
 described next.
